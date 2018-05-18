@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1290827438167548}
+  m_IsPrefabParent: 1
+--- !u!1 &1290827438167548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4997546834878876}
+  - component: {fileID: 114674945186779506}
+  m_Layer: 0
+  m_Name: GameBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4997546834878876
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1290827438167548}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114674945186779506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1290827438167548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69021a0c2b8aaa648b127599b18ef63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SquareTile: {fileID: 114381592359243390, guid: 81818a648f809c84798c53789342e95c,
+    type: 2}
+  SamplePawn: {fileID: 114459982214587932, guid: cd14cf037afb71347ad2ea4f2775784c,
+    type: 2}
+  SampleRook: {fileID: 114377089321183292, guid: 41314cb217c72284f979565a9ffadb3d,
+    type: 2}
+  SampleBishop: {fileID: 114341765225928372, guid: beb698b4a1cd41943943330c5671b103,
+    type: 2}
+  SampleKnight: {fileID: 114106143532486914, guid: 0e0bb6ad2a46b5044b43e132853e36b1,
+    type: 2}
+  SampleQueen: {fileID: 114608966880027372, guid: 405bc544b5834b64996868105d4e4dc7,
+    type: 2}
+  SampleKing: {fileID: 114098364502098124, guid: 73ce2129a77f5b445beb01435143adc3,
+    type: 2}
